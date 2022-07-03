@@ -28,7 +28,7 @@ public class CubeController : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if(other.gameObject.tag == "BackGroundTag" || other.gameObject.tag == "BlockTag")
+        if(other.gameObject.tag == "GroundTag" || other.gameObject.tag == "BlockTag")
         {
             GetComponent<AudioSource>();
         }
